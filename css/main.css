@@ -196,8 +196,8 @@ li, p, span, nav li {
 }
 
 nav li {
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 h1 {
@@ -289,6 +289,10 @@ section.right-work {
     overflow: hidden;
 }
 
+.right-work.case-study {
+    height:  1440px;
+}
+
 .right-work.case-study li {
     border: none;
 }
@@ -297,7 +301,6 @@ section.right-work {
     border-top: 5px solid #000;
     padding-top: 35px;
 }
-
 
 .right-work.case-study p {
     margin: 0;
@@ -623,6 +626,18 @@ input:focus {
 }
 
 @media only screen and (max-width: 720px) {
+
+  .case-images video {
+      margin-bottom: 42px;
+  }
+
+  .case-images img {
+      margin-bottom: 42px;
+  }
+
+  .right-work.case-study {
+      height:  1000px;
+  }
 
   .right-work .form {
       margin-top: 0;

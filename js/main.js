@@ -24,49 +24,39 @@ $(document).ready(function(){
 
 
     // var yo = $('input[name=password]').val();
-
-    $(document).keypress(function(e) {
-        if(e.which == 13) {
-            if($("#password").val() == "batman") {
-                console.log("lit")
-            }
-            else {
-                console.log("WRONG")
-            }
-        }
-    });
     //
     // var caseImages = document.getElementsByClassName("case-images");
     //
     // var rect = caseImages.getBoundingClientRect();
     // console.log(rect.top, rect.right, rect.bottom, rect.left);
 
-    var top = ($('.case-study').height() - 800);
 
 
-    console.log(top);
+        var top = ($('.case-study').height() - 800);
+        console.log(top);
 
-    var windw = this;
+        var windw = this;
 
-    $.fn.followTo = function ( pos ) {
-        var $this = this,
-            $window = $(windw);
+        $.fn.followTo = function ( pos ) {
+            var $this = this,
+                $window = $(windw);
 
-        $window.scroll(function(e){
-            if ($window.scrollTop() > pos) {
-                $this.css({
-                    position: 'absolute',
-                    top: pos
-                });
-            } else {
-                $this.css({
-                    position: 'fixed',
-                    top: 0
-                });
-            }
-        });
-    };
+            $window.scroll(function(e){
+                if ($window.scrollTop() > pos) {
+                    $this.css({
+                        position: 'absolute',
+                        top: pos
+                    });
+                } else {
+                    $this.css({
+                        position: 'fixed',
+                        top: 0
+                    });
+                }
+            });
+        };
 
-    $('.work .left-info').followTo(top);
+        $('.work .left-info').followTo(top);
+    // });
 
 });

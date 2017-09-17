@@ -652,6 +652,12 @@ input:focus {
 
 @media only screen and (max-width: 720px) {
 
+  .right-work.home.initial,
+  .right-work.case-study.initial {
+      margin-top: 0 !important;
+      opacity: 0;
+  }
+
   .hover_show {
       display: none !important;
   }

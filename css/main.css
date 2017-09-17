@@ -465,6 +465,11 @@ section.right-work {
   margin-bottom: 152px;
 }
 
+.case-images video {
+    margin-bottom: 152px;
+    box-shadow: 0 3px 63px 0px rgba(0,0,0, 0.15);
+}
+
 .case-images .stagger {
     display: inline-block;
     max-width: 1320px;

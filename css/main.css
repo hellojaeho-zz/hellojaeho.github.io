@@ -260,6 +260,7 @@ section.right-work {
 }
 
 .info-nav {
+    position: absolute;
     float: left;
     margin-top: -6px;
 }
@@ -524,6 +525,14 @@ div.case-images .mobile img:first-of-type {
 
 .case-images .mobile img:last-of-type {
     float: right;
+}
+
+.info-nav ul li:last-of-type > a:after {
+    content: "Email";
+}
+
+.info-nav ul li:last-of-type:hover > a:after {
+    content: "jae@hellojaeho.com";
 }
 
 .hidden {

@@ -579,6 +579,11 @@ input:focus {
 
 @media only screen and (max-width: 1150px) {
 
+    div.hover_show img {
+      /* width: 540px !important; */
+      margin: 150px 0 0 0;
+    }
+
     .case-info h2 {
         text-align: left;
     }
@@ -651,6 +656,10 @@ input:focus {
 }
 
 @media only screen and (max-width: 720px) {
+
+  .work-img > img {
+      display: inline-block !important;
+  }
 
   .right-work.home.initial,
   .right-work.case-study.initial {

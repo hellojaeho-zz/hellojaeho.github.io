@@ -12,12 +12,16 @@ $(document).ready(function(){
 
     if ((location.hash === "#access")) {
           $(".right-work.home.initial").removeClass("initial");
-          console.log("wtf?")
 
     } else {
           $(".right-work.home").remove();
           $(".right-work.no-access.hidden").removeClass("hidden");
     }
+
+    $('.top').click(function(){
+        $('html,body').animate({scrollTop:0},400);
+    });
+
 
     // var yo = $('input[name=password]').val();
 

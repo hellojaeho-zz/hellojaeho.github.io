@@ -133,13 +133,21 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 .left-info.initial,
 .wrapper.initial {
     opacity: 0;
 }
 
-.right-work.home.initial {
+.top {
+    cursor: pointer;
+}
+
+.right-work.home.initial,
+.right-work.case-study.initial {
     margin-top: 283px;
     opacity: 0;
 }
@@ -201,6 +209,10 @@ h1 {
     line-height: 99px;
     letter-spacing: -4px;
     text-align: right;
+}
+
+body h1 a:hover {
+    text-decoration: none;
 }
 
 h2, h3 {

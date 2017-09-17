@@ -242,6 +242,22 @@ section.right-work {
     padding: 45px 57px 57px 57px;
 }
 
+.hover_show {
+    display: none;
+}
+
+.right-work ul a:hover > li .hover_show {
+    display: block;
+}
+
+.right-work ul a:hover .work-img > img {
+    display: none;
+}
+
+.hover_show img {
+    width: 540px;
+    margin: 36px 0 0 -50px;
+}
 
 .info-nav {
     float: left;
@@ -626,6 +642,10 @@ input:focus {
 }
 
 @media only screen and (max-width: 720px) {
+
+  .hover_show {
+      display: none !important;
+  }
 
   .case-images video {
       margin-bottom: 42px;

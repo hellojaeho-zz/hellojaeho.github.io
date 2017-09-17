@@ -657,6 +657,7 @@ input:focus {
   }
 
   .case-images video {
+      display: none;
       margin-bottom: 42px;
   }
 

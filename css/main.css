@@ -266,14 +266,14 @@ section.right-work {
 }
 
 .info-wrapper .desc {
-    margin-top: 328px;
+    margin-top: 310px;
 }
 
 .info-wrapper {
     position: relative;
     float: right;
     width: 248px;
-    height: 711px;
+    height: 683px;
     border-top: 5px solid #000;
     border-bottom: 5px solid #000;
 }

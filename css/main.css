@@ -269,6 +269,7 @@ section.right-work {
 
 .info-wrapper .desc {
     margin-top: 310px;
+    text-align: left;
 }
 
 .info-wrapper {
@@ -370,6 +371,7 @@ section.right-work {
 
 .work-label span, .work-name{
     float: left;
+    text-align: left;
 }
 
 .work-label span {

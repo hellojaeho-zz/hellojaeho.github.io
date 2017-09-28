@@ -309,6 +309,10 @@ section.right-work {
     overflow: hidden;
 }
 
+.right-work.home li:hover .work-name {
+    text-decoration: underline;
+}
+
 .right-work.case-study {
     height:  1440px;
 }

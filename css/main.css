@@ -502,6 +502,10 @@ section.right-work {
     box-shadow: 0 3px 63px 0px rgba(0,0,0, 0.15);
 }
 
+.celtics.video.full video {
+    max-width: 700px;
+}
+
 .case-images .stagger {
     display: inline-block;
     max-width: 1320px;
